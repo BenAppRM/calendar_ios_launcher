@@ -1,0 +1,16 @@
+name: calendar_ios_launcher
+description: A simple Flutter launcher for the Persian calendar
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.2.2
+  url_launcher: ^6.2.5
+
+flutter:
+  uses-material-design: true
